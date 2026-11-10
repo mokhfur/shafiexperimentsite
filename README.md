@@ -10,7 +10,6 @@ Single-page personal profile site for Shafi Chowdhury, Managing Director of Shaf
 
 Search `index.html` for text in square brackets:
 
-- `[Portrait photo]`
 - `[EDUCATION AND QUALIFICATIONS]`
 - `[CAREER BEFORE SHAFI CONSULTANCY]`
 - `[A SHORT QUOTE IN SHAFI'S OWN WORDS]`
