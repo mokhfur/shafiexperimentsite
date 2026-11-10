@@ -20,7 +20,15 @@ a{color:#000000}a:hover{color:#000000}
 .sc-flip:hover{background:#FFFFFF !important;color:#000000 !important}
 .sc-paper:hover{background:#CCFF00 !important}
 .sc-nav a:hover{text-decoration:underline;text-decoration-thickness:3px}
-@media (max-width: 960px){.sc-side{display:none !important}.sc-navlinks{display:none !important}}
+.sc-strip{transition:background .18s ease,color .18s ease}
+.sc-strip-t{transition:transform .28s cubic-bezier(.2,.8,.2,1),letter-spacing .28s cubic-bezier(.2,.8,.2,1)}
+.sc-arrow{display:inline-block;opacity:0;transform:translateY(-10px);transition:opacity .2s ease,transform .28s cubic-bezier(.2,.8,.2,1)}
+.sc-strip:hover,.sc-strip:focus-visible{background:#000000 !important;color:var(--accent) !important;outline:none}
+.sc-strip:hover .sc-strip-t,.sc-strip:focus-visible .sc-strip-t{transform:translateY(18px);letter-spacing:.42em !important}
+.sc-strip:hover .sc-arrow,.sc-strip:focus-visible .sc-arrow{opacity:1;transform:none}
+.sc-strip[aria-current="page"]{background:#000000 !important;color:var(--accent) !important}
+@media (max-width: 960px){.sc-navlinks{display:none !important}.sc-side{flex:1 1 100% !important;border-left:0 !important;border-top:4px solid #000000}.sc-strip{flex:1 1 0 !important}.sc-strip-t{writing-mode:horizontal-tb !important;position:static !important;width:auto !important;line-height:1.2 !important;padding:22px 8px !important;text-align:center;letter-spacing:.08em !important;font-size:13px !important;transform:none !important}.sc-arrow{display:none}}
+@media (prefers-reduced-motion: reduce){.sc-strip,.sc-strip-t,.sc-arrow,.sc-btn{transition:none !important}}
 </style>
 </head>
 <body>
@@ -301,11 +309,11 @@ a{color:#000000}a:hover{color:#000000}
 </div>
 
 <!-- SIDEBAR -->
-<aside class="sc-side" aria-hidden="true" style="flex: 0 0 200px; display: flex; border-left: 4px solid #000000; background: #FFFFFF">
-<div style="flex: 0 0 64px; background: #FFFFFF; border-right: 4px solid #000000"><span style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; text-align: left; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Program</span></div>
-<div style="flex: 0 0 64px; background: var(--accent); border-right: 4px solid #000000"><span style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Standardise</span></div>
-<div style="flex: 1 1 64px; background: #FFFFFF"><span style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Submit</span></div>
-</aside>
+<nav class="sc-side" aria-label="Pages" style="flex: 0 0 200px; display: flex; border-left: 4px solid #000000; background: #FFFFFF">
+<a class="sc-strip" href="program.html" style="flex: 0 0 64px; background: #FFFFFF; border-right: 4px solid #000000; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Program<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
+<a class="sc-strip" href="standardise.html" style="flex: 0 0 64px; background: var(--accent); border-right: 4px solid #000000; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Standardise<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
+<a class="sc-strip" href="submit.html" style="flex: 1 1 64px; background: #FFFFFF; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Submit<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
+</nav>
 
 </div>
 </body>
