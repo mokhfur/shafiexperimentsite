@@ -5,7 +5,7 @@ Single-page personal profile site for Shafi Chowdhury, Managing Director of Shaf
 - `index.html` is the home page. `program.html`, `standardise.html` and `submit.html` are the pages the side strips link to.
 - `css/site.css` holds the shared hover and responsive rules for the sub-pages. Plain HTML and CSS, no build step.
 - Fonts load from Google Fonts (Ranchers, Space Mono, Plus Jakarta Sans, Archivo).
-- Colours follow the "Mountain mist" palette: `#B0C4DE` (the `--accent` variable), `#6D8196`, `#01796F` and `#5A5A5A`, with white surfaces and black text.
+- Colours follow the "Mountain mist" palette: `#B0C4DE` (the `--accent` variable), `#6D8196`, logo red `#BE1E2D` and `#5A5A5A`, with white surfaces and black text.
 
 ## Still to fill in
 
