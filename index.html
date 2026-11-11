@@ -9,37 +9,37 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,800;1,500&family=Ranchers&family=Space+Mono:wght@400;700&display=swap">
 <style>
-:root{--accent:#CCFF00}
+:root{--accent:#B0C4DE}
 html{scroll-behavior:smooth}
 body{margin:0}
 [id]{scroll-margin-top:96px}
 a{color:#000000}a:hover{color:#000000}
 .sc-btn{transition:transform .12s ease, box-shadow .12s ease}
-.sc-btn:hover{transform:translate(4px,4px);box-shadow:4px 4px 0 #000000}
+.sc-btn:hover{transform:translate(4px,4px);box-shadow:4px 4px 0 #5A5A5A}
 .sc-btn-w:hover{transform:translate(4px,4px);box-shadow:4px 4px 0 #FFFFFF}
 .sc-flip:hover{background:#FFFFFF !important;color:#000000 !important}
-.sc-paper:hover{background:#CCFF00 !important}
+.sc-paper:hover{background:#B0C4DE !important}
 .sc-nav a:hover{text-decoration:underline;text-decoration-thickness:3px}
 .sc-strip{transition:background .18s ease,color .18s ease}
 .sc-strip-t{transition:transform .28s cubic-bezier(.2,.8,.2,1),letter-spacing .28s cubic-bezier(.2,.8,.2,1)}
 .sc-arrow{display:inline-block;opacity:0;transform:translateY(-10px);transition:opacity .2s ease,transform .28s cubic-bezier(.2,.8,.2,1)}
-.sc-strip:hover,.sc-strip:focus-visible{background:#000000 !important;color:var(--accent) !important;outline:none}
+.sc-strip:hover,.sc-strip:focus-visible{background:#01796F !important;color:#FFFFFF !important;outline:none}
 .sc-strip:hover .sc-strip-t,.sc-strip:focus-visible .sc-strip-t{transform:translateY(18px);letter-spacing:.42em !important}
 .sc-strip:hover .sc-arrow,.sc-strip:focus-visible .sc-arrow{opacity:1;transform:none}
-.sc-strip[aria-current="page"]{background:#000000 !important;color:var(--accent) !important}
-@media (max-width: 960px){.sc-navlinks{display:none !important}.sc-side{flex:1 1 100% !important;border-left:0 !important;border-top:4px solid #000000}.sc-strip{flex:1 1 0 !important}.sc-strip-t{writing-mode:horizontal-tb !important;position:static !important;width:auto !important;line-height:1.2 !important;padding:22px 8px !important;text-align:center;letter-spacing:.08em !important;font-size:13px !important;transform:none !important}.sc-arrow{display:none}}
+.sc-strip[aria-current="page"]{background:#01796F !important;color:#FFFFFF !important}
+@media (max-width: 960px){.sc-navlinks{display:none !important}.sc-side{flex:1 1 100% !important;border-left:0 !important;border-top:4px solid #5A5A5A}.sc-strip{flex:1 1 0 !important}.sc-strip-t{writing-mode:horizontal-tb !important;position:static !important;width:auto !important;line-height:1.2 !important;padding:22px 8px !important;text-align:center;letter-spacing:.08em !important;font-size:13px !important;transform:none !important}.sc-arrow{display:none}}
 @media (prefers-reduced-motion: reduce){.sc-strip,.sc-strip-t,.sc-arrow,.sc-btn{transition:none !important}}
 </style>
 </head>
 <body>
-<div style="display: flex; flex-wrap: wrap; background: #121212; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #000000">
+<div style="display: flex; flex-wrap: wrap; background: #5A5A5A; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; color: #000000">
 
 <div style="flex: 999 1 560px; min-width: 0">
 
 <!-- NAV -->
-<header class="sc-nav" style="position: sticky; top: 0; z-index: 20; background: #FFFFFF; border-bottom: 4px solid #000000; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 32px">
+<header class="sc-nav" style="position: sticky; top: 0; z-index: 20; background: #FFFFFF; border-bottom: 4px solid #5A5A5A; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 32px">
 <a href="#top" style="display: flex; align-items: center; gap: 16px; text-decoration: none; color: #000000">
-<span style="width: 48px; height: 48px; background: #000000; transform: rotate(3deg); display: flex; align-items: center; justify-content: center; color: #FFFFFF; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px">SC</span>
+<span style="width: 48px; height: 48px; background: #01796F; transform: rotate(3deg); display: flex; align-items: center; justify-content: center; color: #FFFFFF; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px">SC</span>
 <span style="font-weight: 800; font-size: 30px; letter-spacing: -0.02em">Shafi Chowdhury</span>
 </a>
 <nav class="sc-navlinks" style="display: flex; gap: 28px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">
@@ -48,47 +48,47 @@ a{color:#000000}a:hover{color:#000000}
 <a href="#papers" style="color: #000000; text-decoration: none; padding: 12px 0">Papers</a>
 </nav>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; border: 4px solid #000000; padding: 8px 12px; background: var(--accent); box-shadow: 4px 4px 0 #000000">MD // Shafi Consultancy</span>
-<a class="sc-btn" href="#contact" style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; background: #000000; color: #FFFFFF; border: 4px solid #000000; border-radius: 8px; padding: 12px 20px; box-shadow: 8px 8px 0 var(--accent)">Get in touch</a>
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; border: 4px solid #5A5A5A; padding: 8px 12px; background: var(--accent); box-shadow: 4px 4px 0 #5A5A5A">MD // Shafi Consultancy</span>
+<a class="sc-btn" href="#contact" style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; background: #01796F; color: #FFFFFF; border: 4px solid #5A5A5A; border-radius: 8px; padding: 12px 20px; box-shadow: 8px 8px 0 var(--accent)">Get in touch</a>
 </div>
 </header>
 
 <!-- HERO -->
-<section id="top" style="background: #121212; padding: 96px 48px 112px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center; border-bottom: 8px solid #000000">
+<section id="top" style="background: #5A5A5A; padding: 96px 48px 112px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center; border-bottom: 8px solid #5A5A5A">
 <div style="flex: 3 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 36px; align-items: flex-start">
-<span style="background: #FFFFFF; border: 4px solid #000000; transform: rotate(-2deg); padding: 10px 16px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; box-shadow: 6px 6px 0 var(--accent)">Managing Director · Clinical statistical programming</span>
-<h1 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(76px, 12.5vw, 180px); line-height: 0.85; text-transform: uppercase; color: var(--accent); text-shadow: 8px 8px 0 #000000; letter-spacing: 0.01em">Shafi<br>Chowd&shy;hury</h1>
+<span style="background: #FFFFFF; border: 4px solid #5A5A5A; transform: rotate(-2deg); padding: 10px 16px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; box-shadow: 6px 6px 0 var(--accent)">Managing Director · Clinical statistical programming</span>
+<h1 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(76px, 12.5vw, 180px); line-height: 0.85; text-transform: uppercase; color: var(--accent); text-shadow: 8px 8px 0 #01796F; letter-spacing: 0.01em">Shafi<br>Chowd&shy;hury</h1>
 <p style="margin: 0; max-width: 620px; font-size: 24px; line-height: 1.4; font-style: italic; font-weight: 500; color: #FFFFFF">He leads Shafi Consultancy, the CRO that helps pharma and CRO teams report clinical trials on time, to regulatory standard, with far less manual programming.</p>
-<a class="sc-btn-w" href="mailto:Shafi@shaficonsultancy.com" style="display: flex; flex-wrap: wrap; max-width: 100%; text-decoration: none; border: 4px solid #000000; box-shadow: 8px 8px 0 #FFFFFF; background: #FFFFFF">
+<a class="sc-btn-w" href="mailto:Shafi@shaficonsultancy.com" style="display: flex; flex-wrap: wrap; max-width: 100%; text-decoration: none; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #FFFFFF; background: #FFFFFF">
 <span style="flex: 1 1 auto; padding: 18px 20px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #000000; overflow-wrap: anywhere">Shafi@shaficonsultancy.com</span>
-<span class="sc-flip" style="flex: 0 0 auto; padding: 12px 28px; background: #000000; color: #FFFFFF; border-left: 4px solid #000000; font-family: 'Ranchers', sans-serif; font-size: 28px; text-transform: uppercase; letter-spacing: 0.04em; display: flex; align-items: center">Email Shafi</span>
+<span class="sc-flip" style="flex: 0 0 auto; padding: 12px 28px; background: #01796F; color: #FFFFFF; border-left: 4px solid #5A5A5A; font-family: 'Ranchers', sans-serif; font-size: 28px; text-transform: uppercase; letter-spacing: 0.04em; display: flex; align-items: center">Email Shafi</span>
 </a>
 </div>
 <div style="flex: 2 1 300px; min-width: 0; display: flex; justify-content: center">
 <div style="position: relative; width: 100%; max-width: 380px; transform: rotate(3deg)">
-<img src="images/shafi-chowdhury.jpg" alt="Portrait of Shafi Chowdhury" width="744" height="930" style="display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; background: #FFFFFF; border: 8px solid #000000; box-shadow: 12px 12px 0 var(--accent); box-sizing: border-box">
-<span style="position: absolute; left: -20px; bottom: 28px; background: var(--accent); border: 4px solid #000000; padding: 8px 12px; transform: rotate(-6deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Uxbridge, UK ↔ Sylhet, BD</span>
+<img src="images/shafi-chowdhury.jpg" alt="Portrait of Shafi Chowdhury" width="744" height="930" style="display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; background: #FFFFFF; border: 8px solid #5A5A5A; box-shadow: 12px 12px 0 var(--accent); box-sizing: border-box">
+<span style="position: absolute; left: -20px; bottom: 28px; background: var(--accent); border: 4px solid #5A5A5A; padding: 8px 12px; transform: rotate(-6deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Uxbridge, UK ↔ Sylhet, BD</span>
 </div>
 </div>
 </section>
 
 <!-- STATS -->
-<section style="background: var(--accent); border-bottom: 8px solid #000000; padding: 56px 48px; display: flex; flex-wrap: wrap; gap: 32px 48px; align-items: center; justify-content: space-between">
+<section style="background: #6D8196; border-bottom: 8px solid #5A5A5A; padding: 56px 48px; display: flex; flex-wrap: wrap; gap: 32px 48px; align-items: center; justify-content: space-between">
 <h2 style="margin: 0; flex: 1 1 260px; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: 56px; line-height: 0.9; text-transform: uppercase">On the record</h2>
 <div style="flex: 3 1 480px; display: flex; flex-wrap: wrap; gap: 16px">
-<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 16px; display: flex; flex-direction: column; gap: 4px">
+<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 16px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 40px; line-height: 1">23</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Papers &amp; posters</span>
 </div>
-<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 16px; display: flex; flex-direction: column; gap: 4px">
+<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 16px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 40px; line-height: 1">2005</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">First conference</span>
 </div>
-<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 16px; display: flex; flex-direction: column; gap: 4px">
+<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 16px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 40px; line-height: 1">9</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Countries presented in</span>
 </div>
-<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 16px; display: flex; flex-direction: column; gap: 4px">
+<div style="flex: 1 1 130px; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 16px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 40px; line-height: 1">2</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Offices: UK &amp; Bangladesh</span>
 </div>
@@ -96,39 +96,39 @@ a{color:#000000}a:hover{color:#000000}
 </section>
 
 <!-- STICKER BAR -->
-<section style="background: #FFFFFF; border-bottom: 4px solid #000000; padding: 56px 48px 64px; display: flex; flex-direction: column; gap: 36px">
+<section style="background: #FFFFFF; border-bottom: 4px solid #5A5A5A; padding: 56px 48px 64px; display: flex; flex-direction: column; gap: 36px">
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Seen on stage at</span>
 <div style="display: flex; flex-wrap: wrap; gap: 32px 28px">
-<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 14px; transform: rotate(-2deg)">
-<span style="flex: 0 0 56px; height: 56px; background: #000000; color: var(--accent); display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'18</span>
+<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 14px; transform: rotate(-2deg)">
+<span style="flex: 0 0 56px; height: 56px; background: #01796F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'18</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; line-height: 1.4; letter-spacing: 0.06em; text-transform: uppercase">PhUSE US Connect<br>Raleigh</span>
 </div>
-<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: var(--accent); border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 14px; transform: rotate(1.5deg)">
-<span style="flex: 0 0 56px; height: 56px; background: #000000; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'18</span>
+<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: var(--accent); border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 14px; transform: rotate(1.5deg)">
+<span style="flex: 0 0 56px; height: 56px; background: #01796F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'18</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; line-height: 1.4; letter-spacing: 0.06em; text-transform: uppercase">PSI Conference<br>Amsterdam</span>
 </div>
-<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 14px; transform: rotate(-1deg)">
-<span style="flex: 0 0 56px; height: 56px; background: #000000; color: var(--accent); display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'17</span>
+<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 14px; transform: rotate(-1deg)">
+<span style="flex: 0 0 56px; height: 56px; background: #01796F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'17</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; line-height: 1.4; letter-spacing: 0.06em; text-transform: uppercase">PAGE Meeting<br>Budapest</span>
 </div>
-<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 14px; transform: rotate(2deg)">
-<span style="flex: 0 0 56px; height: 56px; background: #000000; color: var(--accent); display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'12</span>
+<div style="flex: 1 1 220px; display: flex; gap: 14px; align-items: center; background: #FFFFFF; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 14px; transform: rotate(2deg)">
+<span style="flex: 0 0 56px; height: 56px; background: #01796F; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px">'12</span>
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; line-height: 1.4; letter-spacing: 0.06em; text-transform: uppercase">FDA / PhUSE Workshop<br>Washington DC</span>
 </div>
 </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about" style="background: #FFFFFF; border-bottom: 8px solid #000000; padding: 96px 48px; display: flex; flex-wrap: wrap; gap: 56px">
+<section id="about" style="background: #FFFFFF; border-bottom: 8px solid #5A5A5A; padding: 96px 48px; display: flex; flex-wrap: wrap; gap: 56px">
 <div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 20px; align-items: flex-start">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: #000000; color: #FFFFFF; padding: 6px 10px">01 // About</span>
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: #01796F; color: #FFFFFF; padding: 6px 10px">01 // About</span>
 <h2 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 96px); line-height: 0.85; text-transform: uppercase">Programmer first. Director second.</h2>
 </div>
 <div style="flex: 2 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px; font-size: 19px; line-height: 1.6">
 <p style="margin: 0">Shafi Chowdhury is the Managing Director of Shafi Consultancy Limited, a contract research organisation that specialises in statistical programming for pharmaceutical and CRO clients across all phases of drug development.</p>
 <p style="margin: 0">He has been presenting at industry conferences since 2005, on subjects from NONMEM dataset creation and good programming practice to risk-based monitoring, fraud detection and reporting driven entirely by metadata. Several of those papers were written with collaborators at sponsor companies.</p>
 <p style="margin: 0">The company works from Uxbridge in the United Kingdom and Sylhet in Bangladesh, where he has built a team of statistical programmers and statisticians.</p>
-<div style="border: 4px dashed #000000; padding: 20px; display: flex; flex-direction: column; gap: 8px; font-family: 'Space Mono', monospace; font-size: 14px; line-height: 1.5">
+<div style="border: 4px dashed #5A5A5A; padding: 20px; display: flex; flex-direction: column; gap: 8px; font-family: 'Space Mono', monospace; font-size: 14px; line-height: 1.5">
 <span style="font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">To fill in</span>
 <span>[EDUCATION AND QUALIFICATIONS]</span>
 <span>[CAREER BEFORE SHAFI CONSULTANCY]</span>
@@ -138,80 +138,80 @@ a{color:#000000}a:hover{color:#000000}
 </section>
 
 <!-- COMPARISON -->
-<section style="background: #121212; border-bottom: 8px solid #000000">
+<section style="background: #5A5A5A; border-bottom: 8px solid #5A5A5A">
 <div style="padding: 80px 48px 48px; display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: var(--accent); color: #000000; padding: 6px 10px">02 // What he argues for</span>
 <h2 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 96px); line-height: 0.85; text-transform: uppercase; color: #FFFFFF">Four habits he wants gone</h2>
-<p style="margin: 0; max-width: 640px; font-size: 18px; line-height: 1.5; color: #CBD5E1">Each row is the subject of a paper he has presented.</p>
+<p style="margin: 0; max-width: 640px; font-size: 18px; line-height: 1.5; color: #FFFFFF">Each row is the subject of a paper he has presented.</p>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #000000">
-<div style="flex: 1 1 340px; min-width: 0; background: #000000; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #94A3B8">The old way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #64748B">A program per table</span>
+<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #5A5A5A">
+<div style="flex: 1 1 340px; min-width: 0; background: #5A5A5A; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The old way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #B0C4DE">A program per table</span>
 </div>
-<div style="flex: 1 1 340px; min-width: 0; background: var(--accent); padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #000000">The better way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #000000">No programs at all</span>
-</div>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #000000">
-<div style="flex: 1 1 340px; min-width: 0; background: #000000; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #94A3B8">The old way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #64748B">Tracking in Excel</span>
-</div>
-<div style="flex: 1 1 340px; min-width: 0; background: var(--accent); padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #000000">The better way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #000000">A reporting database</span>
+<div style="flex: 1 1 340px; min-width: 0; background: #01796F; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The better way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #FFFFFF">No programs at all</span>
 </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #000000">
-<div style="flex: 1 1 340px; min-width: 0; background: #000000; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #94A3B8">The old way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #64748B">Check every data point</span>
+<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #5A5A5A">
+<div style="flex: 1 1 340px; min-width: 0; background: #5A5A5A; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The old way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #B0C4DE">Tracking in Excel</span>
 </div>
-<div style="flex: 1 1 340px; min-width: 0; background: var(--accent); padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #000000">The better way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #000000">Risk-based monitoring</span>
+<div style="flex: 1 1 340px; min-width: 0; background: #01796F; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The better way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #FFFFFF">A reporting database</span>
 </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #000000">
-<div style="flex: 1 1 340px; min-width: 0; background: #000000; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #94A3B8">The old way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #64748B">The NONMEM nightmare</span>
+<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #5A5A5A">
+<div style="flex: 1 1 340px; min-width: 0; background: #5A5A5A; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The old way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #B0C4DE">Check every data point</span>
 </div>
-<div style="flex: 1 1 340px; min-width: 0; background: var(--accent); padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #000000">The better way</span>
-<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #000000">Datasets straight from SDTM</span>
+<div style="flex: 1 1 340px; min-width: 0; background: #01796F; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The better way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #FFFFFF">Risk-based monitoring</span>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; border-top: 4px solid #5A5A5A">
+<div style="flex: 1 1 340px; min-width: 0; background: #5A5A5A; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The old way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #B0C4DE">The NONMEM nightmare</span>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #01796F; padding: 36px 48px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFFFFF">The better way</span>
+<span style="font-family: 'Ranchers', sans-serif; font-size: clamp(48px, 5.5vw, 80px); line-height: 0.9; text-transform: uppercase; color: #FFFFFF">Datasets straight from SDTM</span>
 </div>
 </div>
 </section>
 
 <!-- FOCUS -->
-<section id="focus" style="background: #121212; border-bottom: 8px solid #000000; padding: 96px 48px 112px; display: flex; flex-direction: column; gap: 56px">
+<section id="focus" style="background: #5A5A5A; border-bottom: 8px solid #5A5A5A; padding: 96px 48px 112px; display: flex; flex-direction: column; gap: 56px">
 <div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: var(--accent); color: #000000; padding: 6px 10px">03 // Focus</span>
 <h2 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 96px); line-height: 0.85; text-transform: uppercase; color: #FFFFFF">What his team delivers</h2>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 40px 32px">
-<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #000000; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px; overflow: visible">
+<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #5A5A5A; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px; overflow: visible">
 <span aria-hidden="true" style="position: absolute; right: 8px; bottom: -24px; font-family: 'Ranchers', sans-serif; font-size: 260px; line-height: 1; opacity: 0.03; pointer-events: none">1</span>
-<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #000000; padding: 6px 12px; transform: rotate(-4deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 01</span>
+<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #5A5A5A; padding: 6px 12px; transform: rotate(-4deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 01</span>
 <h3 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: 44px; line-height: 0.9; text-transform: uppercase">Statistical programming</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.55">Clinical trial reporting for pharma and CRO clients: tables, listings and figures delivered on time and built for accuracy from the outset.</p>
 </article>
-<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #000000; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px">
+<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #5A5A5A; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px">
 <span aria-hidden="true" style="position: absolute; right: 8px; bottom: -24px; font-family: 'Ranchers', sans-serif; font-size: 260px; line-height: 1; opacity: 0.03; pointer-events: none">2</span>
-<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #000000; padding: 6px 12px; transform: rotate(3deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 02</span>
+<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #5A5A5A; padding: 6px 12px; transform: rotate(3deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 02</span>
 <h3 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: 44px; line-height: 0.9; text-transform: uppercase">CDISC standards</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.55">Submission-ready datasets and documentation, with the flexibility to handle legacy data and client-specific standards.</p>
 </article>
-<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #000000; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px">
+<article style="position: relative; flex: 1 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #5A5A5A; box-shadow: 8px 8px 0 #FFFFFF; padding: 56px 28px 32px; display: flex; flex-direction: column; gap: 14px">
 <span aria-hidden="true" style="position: absolute; right: 8px; bottom: -24px; font-family: 'Ranchers', sans-serif; font-size: 260px; line-height: 1; opacity: 0.03; pointer-events: none">3</span>
-<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #000000; padding: 6px 12px; transform: rotate(-3deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 03</span>
+<span style="position: absolute; top: -18px; left: -14px; background: var(--accent); border: 4px solid #5A5A5A; padding: 6px 12px; transform: rotate(-3deg); font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">Area 03</span>
 <h3 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: 44px; line-height: 0.9; text-transform: uppercase">PK/PD &amp; NONMEM</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.55">NONMEM-ready datasets and submission-ready ADPPK in one fast, traceable and fully validated package.</p>
 </article>
@@ -219,48 +219,48 @@ a{color:#000000}a:hover{color:#000000}
 </section>
 
 <!-- PAPERS -->
-<section id="papers" style="background: #FFFFFF; border-bottom: 8px solid #000000; padding: 96px 48px; display: flex; flex-direction: column; gap: 48px">
+<section id="papers" style="background: #FFFFFF; border-bottom: 8px solid #5A5A5A; padding: 96px 48px; display: flex; flex-direction: column; gap: 48px">
 <div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start">
-<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: #000000; color: #FFFFFF; padding: 6px 10px">04 // Papers</span>
+<span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; background: #01796F; color: #FFFFFF; padding: 6px 10px">04 // Papers</span>
 <h2 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(56px, 7vw, 96px); line-height: 0.85; text-transform: uppercase">Selected talks and papers</h2>
 </div>
-<div style="display: flex; flex-direction: column; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000">
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_e014f29d900d403db1b6842e0a00eab0.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<div style="display: flex; flex-direction: column; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_e014f29d900d403db1b6842e0a00eab0.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2018</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Generating tables, listings and figures without any programs</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE US Connect · Raleigh</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_a4b346e7b73d4c559a16fa8f3b662d61.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_a4b346e7b73d4c559a16fa8f3b662d61.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2018</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Fraudulent data detection in clinical trials using dynamic clustering</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PSI · Amsterdam</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_afff2257b05a4b4187ffdabdcc7feaa2.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_afff2257b05a4b4187ffdabdcc7feaa2.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2017</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Using a 'big' NONMEM dataset generated from standard SDTM to review data and accelerate model building</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PAGE · Budapest</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_02d3ad06f00f4d3fb8422b87ebbf4590.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_02d3ad06f00f4d3fb8422b87ebbf4590.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2016</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Using metadata to drive standards, speed, consistency and quality in reporting</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE · Barcelona</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_ccb6d137bdb3473d8c1dbbcbd2d35263.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_ccb6d137bdb3473d8c1dbbcbd2d35263.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2016</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Making the leap from Excel to a database used for reporting</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE · Barcelona</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_0e2fc58c31fa4f2989e7c243ff0dae9a.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_0e2fc58c31fa4f2989e7c243ff0dae9a.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2015</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Introduction to GPP, with hints and tips to make it second nature</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE · Vienna</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_dd85cb49a04443119a7020c96ba92c79.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_dd85cb49a04443119a7020c96ba92c79.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2013</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Risk-based monitoring: why does it matter to programmers?</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE · Brussels</span>
 </a>
-<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_f4a04ce16a9d4a0ea2cceabfec616c6a.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #000000">
+<a class="sc-paper" href="https://www.shaficonsultancy.com/_files/ugd/5d717a_f4a04ce16a9d4a0ea2cceabfec616c6a.pdf" style="display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; padding: 20px 24px; background: #FFFFFF; color: #000000; text-decoration: none; border-bottom: 4px solid #5A5A5A">
 <span style="flex: 0 0 64px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 24px">2012</span>
 <span style="flex: 1 1 320px; font-weight: 700; font-size: 19px; line-height: 1.35">Centralised risk-based source data verification</span>
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">FDA / PhUSE · Washington DC</span>
@@ -271,21 +271,21 @@ a{color:#000000}a:hover{color:#000000}
 <span style="flex: 0 1 240px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">PhUSE · Berlin</span>
 </a>
 </div>
-<a class="sc-btn" href="https://www.shaficonsultancy.com/publications" style="align-self: flex-start; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; background: var(--accent); color: #000000; border: 4px solid #000000; padding: 16px 24px; box-shadow: 8px 8px 0 #000000">See all 23 publications</a>
+<a class="sc-btn" href="https://www.shaficonsultancy.com/publications" style="align-self: flex-start; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; background: var(--accent); color: #000000; border: 4px solid #5A5A5A; padding: 16px 24px; box-shadow: 8px 8px 0 #5A5A5A">See all 23 publications</a>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" style="background: var(--accent); padding: 104px 48px; display: flex; flex-wrap: wrap; gap: 56px; align-items: flex-end">
 <div style="flex: 3 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 28px; align-items: flex-start">
-<span style="background: #FFFFFF; border: 4px solid #000000; transform: rotate(-2deg); padding: 8px 14px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">05 // Contact</span>
+<span style="background: #FFFFFF; border: 4px solid #5A5A5A; transform: rotate(-2deg); padding: 8px 14px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase">05 // Contact</span>
 <h2 style="margin: 0; font-family: 'Ranchers', sans-serif; font-weight: 400; font-size: clamp(72px, 11vw, 160px); line-height: 0.85; text-transform: uppercase">Talk to Shafi</h2>
 <p style="margin: 0; max-width: 560px; font-size: 20px; line-height: 1.5; font-weight: 500">For a project, a speaking invitation or a second opinion on a reporting problem, write to him directly.</p>
-<a class="sc-btn" href="mailto:Shafi@shaficonsultancy.com" style="display: flex; flex-wrap: wrap; max-width: 100%; text-decoration: none; border: 4px solid #000000; box-shadow: 8px 8px 0 #000000; background: #FFFFFF">
+<a class="sc-btn" href="mailto:Shafi@shaficonsultancy.com" style="display: flex; flex-wrap: wrap; max-width: 100%; text-decoration: none; border: 4px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; background: #FFFFFF">
 <span style="flex: 1 1 auto; padding: 18px 20px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: #000000; overflow-wrap: anywhere">Shafi@shaficonsultancy.com</span>
-<span class="sc-flip" style="flex: 0 0 auto; padding: 12px 28px; background: #000000; color: #FFFFFF; border-left: 4px solid #000000; font-family: 'Ranchers', sans-serif; font-size: 28px; text-transform: uppercase; letter-spacing: 0.04em; display: flex; align-items: center">Send email</span>
+<span class="sc-flip" style="flex: 0 0 auto; padding: 12px 28px; background: #01796F; color: #FFFFFF; border-left: 4px solid #5A5A5A; font-family: 'Ranchers', sans-serif; font-size: 28px; text-transform: uppercase; letter-spacing: 0.04em; display: flex; align-items: center">Send email</span>
 </a>
 </div>
-<div style="flex: 2 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #000000; box-shadow: 8px 8px 0 #000000; padding: 28px; display: flex; flex-direction: column; gap: 18px; transform: rotate(1.5deg)">
+<div style="flex: 2 1 280px; min-width: 0; background: #FFFFFF; border: 8px solid #5A5A5A; box-shadow: 8px 8px 0 #5A5A5A; padding: 28px; display: flex; flex-direction: column; gap: 18px; transform: rotate(1.5deg)">
 <div style="display: flex; flex-direction: column; gap: 4px">
 <span style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">UK office</span>
 <span style="font-size: 16px; line-height: 1.5">Shafi Consultancy Limited, The Charter Building, Charter Place, Uxbridge, Middlesex UB8 1JG</span>
@@ -301,7 +301,7 @@ a{color:#000000}a:hover{color:#000000}
 </div>
 </section>
 
-<footer style="background: #000000; color: #FFFFFF; padding: 24px 48px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">
+<footer style="background: #5A5A5A; color: #FFFFFF; padding: 24px 48px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">
 <span>© 2026 Shafi Chowdhury</span>
 <span>Shafi Consultancy Limited · Registered in England and Wales No. 4194731</span>
 </footer>
@@ -309,9 +309,9 @@ a{color:#000000}a:hover{color:#000000}
 </div>
 
 <!-- SIDEBAR -->
-<nav class="sc-side" aria-label="Pages" style="flex: 0 0 200px; display: flex; border-left: 4px solid #000000; background: #FFFFFF">
-<a class="sc-strip" href="program.html" style="flex: 0 0 64px; background: #FFFFFF; border-right: 4px solid #000000; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Program<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
-<a class="sc-strip" href="standardise.html" style="flex: 0 0 64px; background: var(--accent); border-right: 4px solid #000000; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Standardise<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
+<nav class="sc-side" aria-label="Pages" style="flex: 0 0 200px; display: flex; border-left: 4px solid #5A5A5A; background: #FFFFFF">
+<a class="sc-strip" href="program.html" style="flex: 0 0 64px; background: #FFFFFF; border-right: 4px solid #5A5A5A; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Program<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
+<a class="sc-strip" href="standardise.html" style="flex: 0 0 64px; background: #6D8196; border-right: 4px solid #5A5A5A; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Standardise<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
 <a class="sc-strip" href="submit.html" style="flex: 1 1 64px; background: #FFFFFF; color: #000000; text-decoration: none"><span class="sc-strip-t" style="position: sticky; top: 32px; display: block; writing-mode: vertical-rl; padding: 32px 0; width: 64px; line-height: 64px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.3em; text-transform: uppercase">Submit<span class="sc-arrow" aria-hidden="true"> →</span></span></a>
 </nav>
 
