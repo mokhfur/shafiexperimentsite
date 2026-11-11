@@ -5,7 +5,7 @@ Single-page personal profile site for Shafi Chowdhury, Managing Director of Shaf
 - `index.html` is the home page. `program.html`, `standardise.html` and `submit.html` are the pages the side strips link to.
 - `css/site.css` holds the shared hover and responsive rules for the sub-pages. Plain HTML and CSS, no build step.
 - Fonts load from Google Fonts (Ranchers, Space Mono, Plus Jakarta Sans, Archivo).
-- Colours follow the "Salt and pepper" palette: `#FFFFFF`, `#D4D4D4`, `#B3B3B3`, `#2B2B2B`. The light grey is the `--accent` variable at the top of the stylesheet.
+- The accent colour is the `--accent` variable at the top of the stylesheet.
 
 ## Still to fill in
 
